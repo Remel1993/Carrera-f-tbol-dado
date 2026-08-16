@@ -1,6 +1,0 @@
-{
-  "name": "Probador Virtual de Ropa",
-  "description": "Probador virtual de ropa interactivo con modelos personalizables, gestión de prendas por capas y previsualización en tiempo real.",
-  "requestFramePermissions": ["camera"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
