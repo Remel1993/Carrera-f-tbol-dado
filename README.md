@@ -1,37 +1,20 @@
-# Dice Football
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Aplicación React + Vite + TypeScript + Tailwind CSS.
+# Run and deploy your AI Studio app
 
-## Requisitos
+This contains everything you need to run your app locally.
 
-- Node.js 20+ recomendado
-- npm 10+ recomendado
+View your app in AI Studio: https://ai.studio/apps/cac1ad38-2288-47b9-a68c-fb8ca806e5a4
 
-## Instalación
+## Run Locally
 
-```bash
-npm install
-```
+**Prerequisites:**  Node.js
 
-## Desarrollo
 
-```bash
-npm run dev
-```
-
-Vite mostrará la URL local, normalmente `http://localhost:5173`.
-
-## Build de producción
-
-```bash
-npm run build
-npm run preview
-```
-
-## Estructura
-
-- `src/DiceFootballApp.tsx` — aplicación principal.
-- `src/components/` — componentes de UI.
-- `src/data/` — datos y lógica de carrera.
-- `src/main.tsx` — punto de entrada Vite.
-- `src/index.css` — Tailwind y estilos globales.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
